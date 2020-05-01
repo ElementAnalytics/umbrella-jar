@@ -1,0 +1,28 @@
+*.class
+*.log
+
+.TEST_TABLE/
+
+# sbt specific
+.cache
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+file_system/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.idea
+
+# MacOS system specific
+.DS_Store
+
+# Ensime files
+.ensime
+.ensime_cache/
+temp
