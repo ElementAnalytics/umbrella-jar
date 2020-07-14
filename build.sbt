@@ -7,7 +7,7 @@ scalaVersion := "2.12.10"
 libraryDependencies ++= Seq(
   "com.elementanalytics" %% "datasets-server" % "1.0.0-31-75b4e969-20200710-1907-SNAPSHOT",
   "com.elementanalytics" %% "datasets-labeling-server" % "1.0.0-20-b6b88f32-20200710-1846-SNAPSHOT",
-  "com.elementanalytics" %% "datasets-iceberg-server" % "1.0.0-6-5d0a3d12-20200710-2021-SNAPSHOT",
+  "com.elementanalytics" %% "datasets-iceberg-server" % "1.0.0-8-66ecec33-SNAPSHOT",
   "com.elementanalytics" %% "dataio-piagent" % "7.2.0-9-d40e5386",
   "com.elementanalytics" %% "scheduler-service-api" % "1.1.2-7-a1bfa111-SNAPSHOT"
 )
