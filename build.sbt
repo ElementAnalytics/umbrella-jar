@@ -5,12 +5,11 @@ version := "0.1"
 scalaVersion := "2.12.10"
 
 libraryDependencies ++= Seq(
-  "com.elementanalytics" %% "datasets-server" % "0.4.0-0-719b0694-20200314-0447-SNAPSHOT",
-  "com.elementanalytics" %% "datasets-labeling-server" % "0.2.2-1-b5134f57-20200414-2027-SNAPSHOT",
-  "com.elementanalytics" %% "datasets-iceberg-server" % "0.2.1-3-a50669fa-20200409-1830-SNAPSHOT",
-  "com.elementanalytics" %% "dataio-piagent" % "7.1.0-36-20ecdd6c-20200314-1730",
-  "com.elementanalytics" %% "scheduler-service-api" % "1.1.1-3-f1b72abd-20200314-1653-SNAPSHOT",
-  "com.elementanalytics" %% "workbench-backend" % "7.4.2-25-g8b07c378e-dirty"
+  "com.elementanalytics" %% "datasets-server" % "1.0.0-31-75b4e969-20200710-1907-SNAPSHOT",
+  "com.elementanalytics" %% "datasets-labeling-server" % "1.0.0-20-b6b88f32-20200710-1846-SNAPSHOT",
+  "com.elementanalytics" %% "datasets-iceberg-server" % "1.0.0-6-5d0a3d12-20200710-2021-SNAPSHOT",
+  "com.elementanalytics" %% "dataio-piagent" % "7.2.0-9-d40e5386",
+  "com.elementanalytics" %% "scheduler-service-api" % "1.1.2-7-a1bfa111-SNAPSHOT"
 )
 
 /* Repository Definitions */

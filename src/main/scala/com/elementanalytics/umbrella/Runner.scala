@@ -8,11 +8,10 @@ import com.elementanalytics.piagent.api.PiAgent
 
 object Runner extends App {
 
-//  DatasetsLogic.run
-  IcebergLogic.run(false)
-  LabelingLogic.run()
-//  Scheduler.run
-//  PiAgent.run
-  //WorkbenchService.run()
+  DatasetsLogic.run(false)
+  LabelingLogic.run(false)
+  IcebergLogic.run(migrate = false, processEvents = true)
 
+  Scheduler.run
+  PiAgent.run
 }
