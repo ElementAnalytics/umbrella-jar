@@ -5,11 +5,13 @@ version := "0.1"
 scalaVersion := "2.12.10"
 
 libraryDependencies ++= Seq(
-  "com.elementanalytics" %% "datasets-server" % "1.0.0-31-75b4e969-20200710-1907-SNAPSHOT",
-  "com.elementanalytics" %% "datasets-labeling-server" % "1.0.0-20-b6b88f32-20200710-1846-SNAPSHOT",
-  "com.elementanalytics" %% "datasets-iceberg-server" % "1.0.0-8-66ecec33-SNAPSHOT",
-  "com.elementanalytics" %% "dataio-piagent" % "7.2.0-9-d40e5386",
-  "com.elementanalytics" %% "scheduler-service-api" % "1.1.2-7-a1bfa111-SNAPSHOT"
+  "com.elementanalytics" %% "datasets-server" % "1.0.0-36-efc044cb-SNAPSHOT",
+  "com.elementanalytics" %% "datasets-labeling-server" % "1.0.0-28-8d10873c-SNAPSHOT",
+  "com.elementanalytics" %% "datasets-iceberg-server" % "1.0.0-11-62a0b3c3-SNAPSHOT",
+  "com.elementanalytics" %% "dataio-piagent" % "7.2.0-11-072660e6-20200714-0731",
+  "com.elementanalytics" %% "scheduler-service-api" % "1.1.2-8-49f7aaaf-SNAPSHOT",
+  "com.redislabs" % "jredisgraph" % "2.0.2",
+  "org.apache.commons" % "commons-csv" % "1.8"
 )
 
 /* Repository Definitions */
